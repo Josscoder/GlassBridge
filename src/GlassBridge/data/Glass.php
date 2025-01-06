@@ -41,10 +41,10 @@ class Glass
             return false;
         }
 
-        return $this->minVector->getX() <= $vector3->getX() &&
-            $this->maxVector->getX() >= $vector3->getX() &&
-            $this->minVector->getZ() <= $vector3->getZ() &&
-            $this->maxVector->getZ() >= $vector3->getZ();
+        return (int) $this->minVector->getX() <= (int) $vector3->getX() &&
+            (int) $this->maxVector->getX() >= (int) $vector3->getX() &&
+            (int) $this->minVector->getZ() <= (int) $vector3->getZ() &&
+            (int) $this->maxVector->getZ() >= (int) $vector3->getZ();
     }
 
     /**
@@ -98,7 +98,7 @@ class Glass
         return $this->broken;
     }
 
-    public function setBroken(bool $broken): void
+    public function setBroken(bool $broken = true): void
     {
         $this->broken = $broken;
     }

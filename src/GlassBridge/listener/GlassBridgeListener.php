@@ -19,10 +19,9 @@ class GlassBridgeListener implements Listener
         }
 
         $vector3 = $player->getLocation()->asVector3();
-        $vector3Below = clone $vector3->subtract(0, 1, 0);
 
-        if (is_null($glassSection = GlassBridge::getInstance()->getSectionByVector3($vector3Below)) ||
-            is_null($glass = $glassSection->getGlassByVector3($vector3Below)) ||
+        if (is_null($glassSection = GlassBridge::getInstance()->getSectionByVector3($vector3)) ||
+            is_null($glass = $glassSection->getGlassByVector3($vector3)) ||
             !$glass->isTempered() ||
             $glass->isBroken()
         ) {
@@ -36,5 +35,7 @@ class GlassBridgeListener implements Listener
         });
 
         $world->addSound($vector3, new BlockBreakSound(VanillaBlocks::GLASS()));
+
+        $glass->setBroken();
     }
 }
