@@ -1,0 +1,10 @@
+name: GlassBridge
+main: GlassBridge\GlassBridgePlugin
+authors:
+- Josscoder
+version: 1.0.0-ALPHA
+api: 5.17.0
+
+permissions:
+  glassbridge.command:
+    default: op
