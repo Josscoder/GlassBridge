@@ -1,4 +1,11 @@
-# 🎮 Glass Bridge Plugin for PocketMine 🏗️ 
+# 🏗️ GlassBridge Plugin for PocketMine 🎮
 
-Recreate the thrilling Glass Bridge game from Squid Game on your PocketMine server! 🌟 Players must choose the safe panels to cross the bridge—one wrong step, and it’s game over! ❌
+![https://www.youtube.com/watch?v=8EVIZCT6g5A](https://i.imgur.com/t3ahVBf.png)
 
+This plugin replicates the **Glass Bridge** minigame from *Squid Game* in **PocketMine-MP**! 💀 Players must choose the right glass panes to survive or fall to their doom.
+
+⚙️ **Developer-Friendly Code** – Learn how to make glass logic.
+
+🚫 **Not for Server Owners** – This plugin is a coding example, not a ready-to-use minigame.
+
+📌 Use it to study, modify, and create your own version!  
