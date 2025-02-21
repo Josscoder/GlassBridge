@@ -1,6 +1,6 @@
 # 🏗️ GlassBridge Plugin for PocketMine 🎮
 
-![https://www.youtube.com/watch?v=8EVIZCT6g5A](https://i.imgur.com/t3ahVBf.png)
+[![Watch the video](https://i.imgur.com/t3ahVBf.png)](https://www.youtube.com/watch?v=8EVIZCT6g5A)
 
 This plugin replicates the **Glass Bridge** minigame from *Squid Game* in **PocketMine-MP**! 💀 Players must choose the right glass panes to survive or fall to their doom.
 
